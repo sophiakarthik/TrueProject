@@ -34,7 +34,15 @@ public void password(String passwod) {
 }
 public void loginbtn(){
 	driver.findElement(login).click();
-	;
+}
+public LinkedlistPage dologin(String un,String pwd) {
+	driver.findElement(getstart).click();
+	driver.findElement(signin).click();
+	System.out.println("login with:"+un+" and "+pwd);
+	driver.findElement(usernm).sendKeys(un);
+	driver.findElement(passwd).sendKeys(pwd);
+	driver.findElement(login).click();
+	return new LinkedlistPage(driver);
 }
 public void signoutbtn() {
 	driver.findElement(signout).click();

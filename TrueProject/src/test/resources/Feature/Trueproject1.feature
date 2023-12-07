@@ -26,8 +26,8 @@ Feature: feature to open dsago url and get started
     And user enter wrong password as "wrongpassnam"
     And user click login button
     Then it should display message for third case
-    
-    Scenario: validate dsalgo url fourth case
+
+  Scenario: validate dsalgo url fourth case
     Given Browser is open
     When user clicks on get started
     And when user enters signin button
@@ -35,6 +35,5 @@ Feature: feature to open dsago url and get started
     And user enter correct password as "wefour04"
     And user click login button
     Then it should go to home page by showing username on top
-    
 
- 
+  
