@@ -15,7 +15,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class Linked_lists_steps {
+public class Linked_list_steps {
 	private signinpage sgn = new signinpage(Driverfactory.getDriver());
 	private LinkedlistPage linklst ;
 	
@@ -112,6 +112,63 @@ public class Linked_lists_steps {
 	@Then("Result is displayed on the console")
 	public void result_is_displayed_on_the_console() {
 		linklst.consoleoutput();
-	  
+	  }
+
+@When("Users clicks on Creating linked list in Lists button")
+public void users_clicks_on_creating_linked_list_in_lists_button() {
+	linklst.createlist();
+}
+
+@Then("Users should be redirected to Creating linked list in Lists page")
+public void users_should_be_redirected_to_creating_linked_list_in_lists_page() {
+	linklst.chkcreatelist();
+   }
+@When("Users clicks on Types of linked  list in Lists button")
+public void users_clicks_on_types_of_linked_list_in_lists_button() {
+	linklst.typesoflist();
+   }
+
+@Then("Users should be redirected to TYpes of linked list in Lists page")
+public void users_should_be_redirected_to_t_ypes_of_linked_list_in_lists_page() {
+	linklst.chktypesoflist();
+   }
+
+@When("Users clicks on Implementation in Lists button")
+public void users_clicks_on_implementation_in_lists_button() {
+	linklst.implementoflist();
 	}
-	}
+
+@Then("Users should be redirected to Implementation in Lists page")
+public void users_should_be_redirected_to_implementation_in_lists_page() {
+	linklst.chkimplementation();
+    }
+@When("Users clicks on Traversal in Lists button")
+public void users_clicks_on_traversal_in_lists_button() {
+	linklst.traversal();
+    }
+
+@Then("Users should be redirected to Traversal in Lists page")
+public void users_should_be_redirected_to_traversal_in_lists_page() {
+	linklst.chktraversal();
+   }
+@When("Users clicks on Insertion in Lists button")
+public void users_clicks_on_insertion_in_lists_button() {
+	linklst.insertion();
+   }
+
+@Then("Users should be redirected to Insertion in Lists page")
+public void users_should_be_redirected_to_insertion_in_lists_page() {
+linklst.chkinsertion();    
+}
+
+@When("Users clicks on Deletion in Lists button")
+public void users_clicks_on_deletion_in_lists_button() {
+linklst.deletion();
+}
+
+@Then("Users should be redirected to Deletion in Lists page")
+public void users_should_be_redirected_to_deletion_in_lists_page() {
+linklst.chkdeletion();    
+}
+
+}

@@ -28,3 +28,98 @@ Feature: linked list feature
     When User enters the text in the TextBox "print(Hello)"
     And Clicks on the Run button
     Then Result is displayed on the console
+
+    
+    Scenario: Linked list pages 
+Given user is on home page
+When user clicks on the get started button Linkedlist section
+Then linked list opens up
+
+When Users clicks on Creating linked list in Lists button
+Then Users should be redirected to Creating linked list in Lists page
+
+When User clicks on Try Here button
+Then User should be redirected to next page
+
+When User enters the text in the TextBox "print(Hello)"
+And Clicks on the Run button
+Then Result is displayed on the console
+
+Scenario: Linked list pages 
+Given user is on home page
+When user clicks on the get started button Linkedlist section
+Then linked list opens up
+
+When Users clicks on Types of linked  list in Lists button
+Then Users should be redirected to TYpes of linked list in Lists page
+
+When User clicks on Try Here button
+Then User should be redirected to next page
+
+When User enters the text in the TextBox "print(Hello)"
+And Clicks on the Run button
+Then Result is displayed on the console
+
+Scenario: Linked list pages 
+Given user is on home page
+When user clicks on the get started button Linkedlist section
+Then linked list opens up
+
+When Users clicks on Implementation in Lists button
+Then Users should be redirected to Implementation in Lists page
+
+When User clicks on Try Here button
+Then User should be redirected to next page
+
+When User enters the text in the TextBox "print(Hello)"
+And Clicks on the Run button
+Then Result is displayed on the console
+
+Scenario: Linked list pages 
+Given user is on home page
+When user clicks on the get started button Linkedlist section
+Then linked list opens up
+
+When Users clicks on Traversal in Lists button
+Then Users should be redirected to Traversal in Lists page
+
+When User clicks on Try Here button
+Then User should be redirected to next page
+
+When User enters the text in the TextBox "print(Hello)"
+And Clicks on the Run button
+Then Result is displayed on the console
+
+Scenario: Linked list pages 
+Given user is on home page
+When user clicks on the get started button Linkedlist section
+Then linked list opens up
+
+When Users clicks on Insertion in Lists button
+Then Users should be redirected to Insertion in Lists page
+
+When User clicks on Try Here button
+Then User should be redirected to next page
+
+When User enters the text in the TextBox "print(Hello)"
+And Clicks on the Run button
+Then Result is displayed on the console
+
+Scenario: Linked list pages 
+Given user is on home page
+When user clicks on the get started button Linkedlist section
+Then linked list opens up
+
+When Users clicks on Deletion in Lists button
+Then Users should be redirected to Deletion in Lists page
+
+When User clicks on Try Here button
+Then User should be redirected to next page
+
+When User enters the text in the TextBox "print(Hello)"
+And Clicks on the Run button
+Then Result is displayed on the console
+
+
+
+    

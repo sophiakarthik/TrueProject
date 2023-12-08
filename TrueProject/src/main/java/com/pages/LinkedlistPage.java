@@ -1,4 +1,3 @@
-
 package com.pages;
 
 import java.time.Duration;
@@ -118,19 +117,40 @@ public void chkcreatelist() {
 	public void typesoflist() {
 		driver.findElement(types).click();
 	} 
+	public void chktypesoflist() {
+		driver.getTitle();
+		System.out.println("Types of list page title is: "+driver.getTitle());
+	}
+
 	public void implementoflist() {
 		driver.findElement(implement).click();
+	}
+	public void chkimplementation() {
+		driver.getTitle();
+		System.out.println("Implementation page title is: "+driver.getTitle());
 	}
 	public void traversal() {
 		driver.findElement(traver).click();
 	}
+	public void chktraversal() {
+		driver.getTitle();
+		System.out.println("Traverssal page title is : "+driver.getTitle());
+	}
 	public void insertion() {
 		driver.findElement(insertn).click();
 	}
+	public void chkinsertion() {
+	driver.getTitle();
+	System.out.println("Insertion page title is: "+driver.getTitle());
+	}
+
 	public void deletion() {
 		driver.findElement(deletn).click();
 	}
-
+	public void chkdeletion() {
+	driver.getTitle();
+	System.out.println("Deletion page title is: "+driver.getTitle());
+	}
 	}
 
  

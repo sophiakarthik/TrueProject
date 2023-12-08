@@ -11,7 +11,7 @@ private By getstart= By.className("btn");
 private By signin=By.xpath("//*[@id='navbarCollapse']/div[2]/ul/a[3]");
 private By usernm=By.name("username");
 private By passwd=By.name("password");
-private By login=By.xpath("/html/body/div[2]/div/div[2]/form/input[4]");
+private By login=By.xpath("/html/body/div[2]/div/div[2]/form/input[4]"); 
 private By signout=By.xpath("//*[@id=\"navbarCollapse\"]/div[2]/ul/a[3]");
    //2.constructor of the page class
 public signinpage (WebDriver driver) {
@@ -35,7 +35,7 @@ public void password(String passwod) {
 public void loginbtn(){
 	driver.findElement(login).click();
 }
-public LinkedlistPage dologin(String un,String pwd) {
+public LinkedlistPage dologin(String un,String pwd){
 	driver.findElement(getstart).click();
 	driver.findElement(signin).click();
 	System.out.println("login with:"+un+" and "+pwd);
